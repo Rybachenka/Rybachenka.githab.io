@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,900&family=Pacifico&family=Roboto&display=swap');
+
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    max-width: 100%;
+    background-color: rgb(92, 85, 85);
+    background-image: url(/img/ring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Noto Serif Display', serif;
+}
+
+
+.title{
+    margin: 0, auto;
+    text-align: center;
+    color: #f7f704;
+
+}
+
+h1{
+font-size: 50px;
+margin: 0;
+padding-top: 60px;
+}
+
+article
+h2,
+h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* .nav_top .nav_items ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: 50px;
+} */
+
+/* nav_main nav__items{
+text-align: left;
+} */
+
+.nav_main .nav_items ul li{
+text-align: left;
+}
+
+
+
+a{
+    color: #f7f704;
+    text-decoration: none;
+}
+
+.nav_items{
+    text-align: center;
+}
+
+.main{
+    /* background-color: #000000; */
+    color: #FFFFCC;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #000000;
+}
+
+footer{
+    color: #FFFFCC;
+    max-width: 1000px;
+    font-size: 18px;
+    /* outline: solid rgb(55, 0, 255); */
+    margin: 0 auto;
+}
+
+.footerimg{
+    width: 304px;
+    /* outline: solid red; */
+    margin: 0 auto;
+}
+
+b{
+    font-size: 20px;
+}
+
+.articleimg{
+    width: 640px;
+    margin: 0 auto;
+}
